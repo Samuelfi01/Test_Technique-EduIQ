@@ -12,6 +12,7 @@ Cependant, le code prévoit des conditions de contournement pour les cas déroga
 sportifs de haut niveau, ou projet de création/reprise d'entreprise."
 
 Choix techniques :
+
 ​Architecture Modulaire : 
 
 J'ai opté pour une séparation nette entre la logique de calcul métier et la gestion des données. Cela permet d'isoler les règles de gestion comme les tranches d'âge pour les rendre testables unitairement sans dépendre d'une base de données.
